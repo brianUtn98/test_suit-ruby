@@ -5,6 +5,7 @@ def test_suite(&test_suite_definition)
   test_suite.ejecutar(notificar_resultados: true)
 end
 
+#Init Test
 class Test
   def initialize(contenido)
     @contenido = contenido
@@ -28,7 +29,9 @@ class Test
     end
   end
 end
-
+#Fin Test
+  
+#Init Testsuite
 class TestSuite
   def initialize(&suite_definition)
     @test = []
@@ -57,3 +60,5 @@ class TestSuite
     end
   end
 end
+  
+#Fin TestSuite
